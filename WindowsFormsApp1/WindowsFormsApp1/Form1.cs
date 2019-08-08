@@ -16,5 +16,14 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("¿Deseas salir?", "salir", MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+            {
+                this.Close();
+
+            }
+        }
     }
 }
