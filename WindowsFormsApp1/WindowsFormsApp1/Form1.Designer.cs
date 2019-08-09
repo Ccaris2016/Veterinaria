@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.Exit = new System.Windows.Forms.Button();
+            this.Vaca = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Exit
@@ -41,14 +42,27 @@
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // Vaca
+            // 
+            this.Vaca.Location = new System.Drawing.Point(271, 153);
+            this.Vaca.Name = "Vaca";
+            this.Vaca.Size = new System.Drawing.Size(143, 56);
+            this.Vaca.TabIndex = 1;
+            this.Vaca.Text = "Vaca";
+            this.Vaca.UseVisualStyleBackColor = true;
+            this.Vaca.Click += new System.EventHandler(this.Vaca_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Vaca);
             this.Controls.Add(this.Exit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
@@ -56,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button Vaca;
     }
 }
 

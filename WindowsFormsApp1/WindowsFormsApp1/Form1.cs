@@ -25,5 +25,12 @@ namespace WindowsFormsApp1
 
             }
         }
+
+        private void Vaca_Click(object sender, EventArgs e)
+        {
+            VacaForm Vaca_f = new VacaForm();
+            Vaca_f.Show();
+            this.Hide();
+        }
     }
 }
