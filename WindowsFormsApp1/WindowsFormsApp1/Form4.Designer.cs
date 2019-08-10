@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class VacaForm
+    partial class MenorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@
             // 
             this.Volver.Location = new System.Drawing.Point(12, 12);
             this.Volver.Name = "Volver";
-            this.Volver.Size = new System.Drawing.Size(94, 36);
+            this.Volver.Size = new System.Drawing.Size(96, 33);
             this.Volver.TabIndex = 0;
             this.Volver.Text = "Volver";
             this.Volver.UseVisualStyleBackColor = true;
@@ -45,24 +45,23 @@
             // 
             // elementHost1
             // 
-            this.elementHost1.Location = new System.Drawing.Point(24, 73);
+            this.elementHost1.Location = new System.Drawing.Point(23, 75);
             this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(971, 408);
+            this.elementHost1.Size = new System.Drawing.Size(765, 369);
             this.elementHost1.TabIndex = 1;
             this.elementHost1.Text = "elementHost1";
             this.elementHost1.Child = this.userControl11;
             // 
-            // VacaForm
+            // MenorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(1266, 513);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.elementHost1);
             this.Controls.Add(this.Volver);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VacaForm";
-            this.Text = "Form2";
+            this.Name = "MenorForm";
+            this.Text = "Form4";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class VacaForm
+    partial class CaballoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Volver = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.userControl11 = new WpfControlLibrary1.UserControl1();
             this.SuspendLayout();
@@ -37,32 +39,37 @@
             // 
             this.Volver.Location = new System.Drawing.Point(12, 12);
             this.Volver.Name = "Volver";
-            this.Volver.Size = new System.Drawing.Size(94, 36);
+            this.Volver.Size = new System.Drawing.Size(119, 36);
             this.Volver.TabIndex = 0;
             this.Volver.Text = "Volver";
             this.Volver.UseVisualStyleBackColor = true;
+            this.Volver.UseWaitCursor = true;
             this.Volver.Click += new System.EventHandler(this.Volver_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // elementHost1
             // 
-            this.elementHost1.Location = new System.Drawing.Point(24, 73);
+            this.elementHost1.Location = new System.Drawing.Point(27, 69);
             this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(971, 408);
+            this.elementHost1.Size = new System.Drawing.Size(543, 322);
             this.elementHost1.TabIndex = 1;
             this.elementHost1.Text = "elementHost1";
             this.elementHost1.Child = this.userControl11;
             // 
-            // VacaForm
+            // CaballoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(1266, 513);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.elementHost1);
             this.Controls.Add(this.Volver);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VacaForm";
-            this.Text = "Form2";
+            this.Name = "CaballoForm";
+            this.Text = "Form3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
@@ -71,6 +78,7 @@
         #endregion
 
         private System.Windows.Forms.Button Volver;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Integration.ElementHost elementHost1;
         private WpfControlLibrary1.UserControl1 userControl11;
     }

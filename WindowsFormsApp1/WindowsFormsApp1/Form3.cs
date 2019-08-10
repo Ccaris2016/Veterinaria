@@ -7,23 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using HelixToolkit.Wpf;
-
 
 namespace WindowsFormsApp1
 {
-    public partial class VacaForm : Form
+    public partial class CaballoForm : Form
     {
-        public VacaForm()
+        public CaballoForm()
         {
             InitializeComponent();
-
         }
+
         private void Volver_Click(object sender, EventArgs e)
         {
-            Form1 Principal = new Form1();
-            Principal.Show();
+            Form1 principal = new Form1();
             this.Close();
+            principal.Show();
         }
     }
 }

@@ -1,0 +1,9 @@
+﻿<Window x:Class="GettingStartedDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:h="http://helix-toolkit.org/wpf"
+        Title="Getting Started Demo" Height="480" Width="640">
+    <Grid HorizontalAlignment="Left" Height="304" Margin="80,65,0,0" VerticalAlignment="Top" Width="506">
+        <CheckBox Content="Quieres pene" HorizontalAlignment="Left" Height="21" Margin="55,50,0,0" VerticalAlignment="Top" Width="91"/>
+    </Grid>
+</Window>

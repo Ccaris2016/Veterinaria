@@ -32,5 +32,20 @@ namespace WindowsFormsApp1
             Vaca_f.Show();
             this.Hide();
         }
+
+        private void Caballo_Click(object sender, EventArgs e)
+        {
+            CaballoForm Caballo_f = new CaballoForm();
+            Caballo_f.Show();
+            this.Hide();
+        }
+
+        private void Menor_Click(object sender, EventArgs e)
+        {
+            MenorForm Menor_f = new MenorForm();
+            Menor_f.Show();
+            this.Hide();
+
+        }
     }
 }
