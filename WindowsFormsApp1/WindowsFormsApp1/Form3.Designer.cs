@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.Volver = new System.Windows.Forms.Button();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.userControl11 = new WpfControlLibrary1.UserControl1();
             this.SuspendLayout();
@@ -45,11 +43,6 @@
             this.Volver.UseVisualStyleBackColor = true;
             this.Volver.UseWaitCursor = true;
             this.Volver.Click += new System.EventHandler(this.Volver_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // elementHost1
             // 
@@ -78,7 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Button Volver;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Integration.ElementHost elementHost1;
         private WpfControlLibrary1.UserControl1 userControl11;
     }

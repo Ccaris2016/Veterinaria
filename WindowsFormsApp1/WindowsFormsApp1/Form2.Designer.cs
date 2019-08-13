@@ -45,9 +45,9 @@
             // 
             // elementHost1
             // 
-            this.elementHost1.Location = new System.Drawing.Point(24, 73);
+            this.elementHost1.Location = new System.Drawing.Point(29, 73);
             this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(971, 408);
+            this.elementHost1.Size = new System.Drawing.Size(1216, 428);
             this.elementHost1.TabIndex = 1;
             this.elementHost1.Text = "elementHost1";
             this.elementHost1.Child = this.userControl11;
